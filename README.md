@@ -1,5 +1,5 @@
 **This should be obvious, but this will only work on NTFS!**  
-_I have never seen or heard of this beind done before this whole project is a proof-of-concept_.
+_I have never seen or heard of this being done before this whole project is a proof-of-concept_.
 
 This is a test project which compiles an Executable and Dynamic Link-Library into Alternate-Data-Streams (ADS) I have named `helloworld-DLL.ps1:.exe` and `helloworld-DLL.ps1:.dll`.  The Powershell script, when run, will create symbolic links to the streams and name them; `helloworld-app.exe` and `helloworld-DLL.dll`.  Files seem to be able to tell what other files are in the directory with it.  This is cause if you just have a link to `helloworld-app.exe` it will complain that there isn't a Dynamic Link-Library in the same directory even though its in an ADS in a file in the same directory.
 
