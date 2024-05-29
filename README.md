@@ -1,6 +1,8 @@
 **This should be obvious, but this will only work on NTFS!**  
 _I have never seen or heard of this being done before; this whole project is a proof-of-concept_.
 
+**be sure to change the command line variables in the Linker in the Project properties for `helloworld-DLL` and `helloworld-app` or you'll get build errors cause the output path doesn't exist.**
+
 This is a test project which compiles an Executable and Dynamic Link-Library into Alternate-Data-Streams (ADS) I have named `helloworld-DLL.ps1:.exe` and `helloworld-DLL.ps1:.dll`.  The Powershell script, when run, will create symbolic links to the streams and name them; `helloworld-app.exe` and `helloworld-DLL.dll`.  Files seem to be able to tell what other files are in the directory with it.  So you can't just run `helloworld-DLL.ps1:.exe` it will complain there is no `.dll` file even though its in a data stream in the same file!  The files need to be next to each other in the same directory.  I do not know why.
 
 I have not figured out how to have files recognize they are in streams in the same file or if this is even possible.
