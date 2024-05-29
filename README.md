@@ -17,7 +17,7 @@ If you're having trouble make a shortcut file and paste: `C:\Windows\explorer.ex
 
 This is cause the program isn't runnable though the exe file its self.  Make sure you deploy the solution after building or it can't be run. 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-There is also an issue with the PowerShell script not going into the `.ps1` file. If so just copy-paste
+There is also an issue with the PowerShell script not input into the `.ps1` file. If so just copy-paste
 ```Powershell
 if( -not(Test-Path -Path ".\helloworld-app.exe") -and -not(Test-Path -Path "helloworld-DLL.dll")){
     New-Item -ItemType SymbolicLink -Path "helloworld-app.exe" -Value ".\helloworld-DLL.ps1:.exe"
