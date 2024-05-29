@@ -1,0 +1,4 @@
+LIBRARY Helloworld-DLL
+
+EXPORTS
+	hello
