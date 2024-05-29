@@ -16,7 +16,7 @@ It is a WinUI3 application so running it can be a little confusing.
 
 If you're having trouble make a shortcut file and paste: `C:\Windows\explorer.exe shell:appsFolder\FilesDev_ykqwq8d6ps0ag!App` into it.
 
-This is cause the program isn't runnable though the exe file its self.  Make sure you deploy the solution after building or it can't be run. 
+This is cause the program isn't runnable though the exe file its self.  Make sure you deploy the solution after building or it can't be run; as far as I know. (which I don't know) This is just what I have found.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 There is also an issue with the PowerShell script not being input into the `.ps1` file. If so just copy-paste
 ```Powershell
