@@ -26,7 +26,7 @@ if( -not(Test-Path -Path ".\helloworld-app.exe") -and -not(Test-Path -Path "hell
     }
 Invoke-Expression -Command ".\helloworld-app.exe"
 ```
-into the, probably empty, helloworld.ps1 file that should have been populated with `helloworld-DLL.cpp`.
+into the, probably empty, helloworld.ps1 file that should have been populated with `helloworld-DLL.cpp`.  Also hard-links don't work to link to ADS.
 
 **By the end you should have two symbolic links one to each alternate data stream that was built.**
 
