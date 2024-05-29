@@ -25,4 +25,4 @@ if( -not(Test-Path -Path ".\helloworld-app.exe") -and -not(Test-Path -Path "hell
     }
 Invoke-Expression -Command ".\helloworld-app.exe"
 ```
-into the, probably empty helloworld.ps1 file that should have been populated with `helloworld-DLL.cpp`.
+into the, probably empty, helloworld.ps1 file that should have been populated with `helloworld-DLL.cpp`.
