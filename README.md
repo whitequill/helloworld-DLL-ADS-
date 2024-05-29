@@ -29,3 +29,4 @@ Invoke-Expression -Command ".\helloworld-app.exe"
 into the, probably empty, helloworld.ps1 file that should have been populated with `helloworld-DLL.cpp`.
 
 **By the end you should have two symbolic links one to each alternate data stream that was built.**
+All of the "secret-sause" is in the Linker settings in the Project properties.
