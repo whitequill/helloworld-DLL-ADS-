@@ -6,7 +6,7 @@
 #include "helloworld-DLL.h"
 
 void hello(){
-    std::cout << "Hello world from DLL!";
+    std::cout << "Hello world from DLL!" << std::endl;
     exit(0);
 }
 
